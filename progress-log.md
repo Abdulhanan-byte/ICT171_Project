@@ -4,11 +4,13 @@
 
 Connected to the Microsoft Azure Virtual Machine using SSH.
 
-## Step 2: Previous Website Removal
+## Step 2: Website Creation
 
-Removed the previous website files from the Nginx web root directory.
+Created a new static HTML website for Abdul Hanan's ICT171 cloud server project.
 
-Command used:
+## Step 3: Website Deployment
+
+Placed the website file inside the Nginx web root directory:
 
 ```bash
-sudo rm -rf /var/www/html/*
+/var/www/html/index.html
